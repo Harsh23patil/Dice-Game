@@ -1,0 +1,69 @@
+body{
+    background-color: #9A86A4;
+}
+.main{
+    text-align: center;
+    padding-top: 5%;
+}
+.heading{
+    font-size: 7.3rem;
+    color: #F1F0C0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 2%;
+    margin-right: 0%;
+    margin-bottom: 2%;
+}
+.Dice{
+    width: 20%;
+    text-align: right;
+    margin-bottom: 3%;
+}
+
+.d1{
+    text-align: right;
+    padding-right: 3%;
+}
+.d2{
+    text-align: left;
+    padding-left: 3%;
+}
+.output{
+    color: rgb(43, 37, 37);
+    font-size: 2rem;
+    padding-top: 3%;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-dwn{
+    margin-top: 4%;
+    width: 20%;
+}
+.btn-outline-light {
+    color: #f3f3d5;
+    border-color: white;
+    background-color: transparent;
+}
+.btn-outline-light:hover {
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+
+@media(max-width:900px){
+    .heading{
+        font-size: 5rem;
+        
+    }
+    .btn-dwn{
+        margin-top: 4%;
+        width: 30%;
+        
+    }
+    .Dice{
+        width: 30%;
+        text-align: right;
+        margin-bottom: 3%;
+    }
+    
+}
